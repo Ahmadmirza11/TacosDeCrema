@@ -95,7 +95,7 @@ const Subscribe = () => {
       setSelectedState("");
       setSelectedCity("");
       alert("Your data is being updated")
-      router.push("message");
+      router.push("/");
     } catch (error) {
       console.error("Error adding document: ", error);
     } finally {

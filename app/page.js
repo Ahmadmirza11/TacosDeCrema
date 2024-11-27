@@ -18,7 +18,7 @@ const Page = () => {
   return (
     <div className={styles.container}>
       <div className={styles.nav}>
-        <h1 className={styles.title}>TacosdeCrema</h1>
+        <h1 className={styles.title}>Tacos DeCrema</h1>
 
         <button onClick={moveOn2} className={styles.btn}>
           Subscribe

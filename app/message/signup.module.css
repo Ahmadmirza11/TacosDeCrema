@@ -126,14 +126,16 @@
 
 @media screen and (max-width: 420px) {
   .login {
-    width: 340px;
-    height: 350px;
+    width: 400px;
+    height: 419px;
   }
+
 }
-@media screen and (max-width: 420px) {
-  .heading {
-    padding-right: 30px;
+@media screen and (max-width: 380px) {
+  .heading{
+    font-size: larger;
   }
+  
 }
 :hover.GoogleBtn {
   cursor: pointer;

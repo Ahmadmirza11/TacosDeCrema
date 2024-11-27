@@ -90,6 +90,7 @@
   border: 2px solid rgb(255, 255, 255);
   background-color: rgb(91, 162, 224);
   color: rgb(255, 255, 255);
+  margin-bottom: 60px;
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
@@ -110,14 +111,36 @@
   left: 10px;
 }
 
+@media (max-width: 1100px) {
+  .bottomLeftBtn,.btn{
+    font-size: medium;
+  }
+}
+
+
 @media (max-width: 768px) {
   .title, .center {
     font-size: 8vw;
   }
 
   .btn, .bottomLeftBtn {
-    width: 30vw;
-    height: 8vw;
-    font-size: 4vw;
+    width: 22vw;
+    height: 6vw;
+    font-size: 3vw;
+    margin-bottom: 50px;
   }
+  .bottomLeftBtn{
+    margin-bottom: 5rem;
+  }
+  
+}
+
+@media (max-width: 428px) {
+  .bottomLeftBtn{
+    margin-bottom: 5rem;
+  }
+  .center{
+    font-size: 60px;
+  }
+
 }

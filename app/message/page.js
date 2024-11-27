@@ -19,8 +19,8 @@ export default function Message() {
        message:message,
         timestamp:new Date(),
       }) 
-      alert("message is being Alert" ) 
-        router.push("/")
+      alert("Your Message is being Alert" ) 
+        router.push("subscribe")
 
      
       
