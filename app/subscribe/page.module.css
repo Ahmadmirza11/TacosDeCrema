@@ -1,0 +1,59 @@
+/* Container styling */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  /* Phone number input styling */
+  .phone-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .phone-input .country-code {
+    margin-right: 0.5rem;
+  }
+  
+  /* General input styling */
+  .input {
+    padding: 0.5rem;
+    border: 1px solid #d2d6dc;
+    border-radius: 0.25rem;
+    width: 100%;
+  }
+  
+  /* Label styling */
+  .label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #4a5568;
+  }
+  
+  /* Form element margin styling */
+  .mb-2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Button hover effect */
+  .btn {
+    width: 150px;
+    height: 40px;
+    border-radius: 12px;
+    font-size: 20px;
+    border: 1px solid red;
+    background-color: aliceblue;
+    color: red;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    transform: scale(1.1);
+    background-color: lightcoral;
+    color: white;
+  }
+  
