@@ -27,7 +27,7 @@ const Page = () => {
 
       <div className={styles.imageContainer}>
         <Image className={styles.img} src={img1} alt="Tacos" />
-        <h2 className={styles.center}>Welcome to taco DE-CREMA</h2>
+        <h1 className={styles.center}>Welcome to taco Decrema</h1>
         <button onClick={moveOn} className={styles.bottomLeftBtn}>
           Alert Me
         </button>
